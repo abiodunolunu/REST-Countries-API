@@ -3,6 +3,8 @@
     <form>
       <i class="fas fa-search"></i>
       <input
+        name="Search for country"
+        aria-label="Search for country"
         type="text"
         placeholder="Search for a country ..."
         v-model="countryName"
@@ -77,7 +79,8 @@ form {
     border: 0;
     background: transparent;
 
-    &:focus, &:active {
+    &:focus,
+    &:active {
       background: transparent;
     }
 

@@ -109,7 +109,6 @@ export default {
   position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  align-items: start;
 
   justify-content: center;
   gap: 40px 1em;
