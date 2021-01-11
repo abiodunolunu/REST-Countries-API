@@ -152,6 +152,7 @@ form {
 
     form {
       margin-bottom: 20px;
+      width: 100%;
     }
   }
 }

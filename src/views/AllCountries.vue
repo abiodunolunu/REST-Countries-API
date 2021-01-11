@@ -108,9 +108,10 @@ export default {
   height: 100%;
   position: relative;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(4,  1fr);
+  align-items: flex-start;
 
-  justify-content: center;
+  justify-content: space-between;
   gap: 40px 1em;
 
   &.empty {
@@ -121,6 +122,28 @@ export default {
     h2 {
       font-size: 35px;
     }
+  }
+}
+
+@media (max-width: 1200px) {
+  .all-countries {
+  grid-template-columns: repeat(3,  1fr);
+
+  }
+}  
+
+@media (max-width: 768px) {
+  .all-countries {
+  grid-template-columns: repeat(2,  1fr);
+
+  }
+}
+
+
+@media (max-width: 500px) {
+  .all-countries {
+  grid-template-columns: repeat(1,  1fr);
+
   }
 }
 </style>

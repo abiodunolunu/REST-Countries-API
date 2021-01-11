@@ -46,6 +46,8 @@ export default {
   box-shadow: var(--box-shadow);
   border-radius: 6px;
   overflow: hidden;
+  // max-width: 400px;
+  cursor: pointer;
 
   img {
     // height: 250px;
